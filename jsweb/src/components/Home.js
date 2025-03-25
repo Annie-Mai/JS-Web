@@ -6,7 +6,7 @@ import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
 import img3 from '../images/img3.png';
 import { Link } from 'react-router-dom';
-
+import "./Home.css";
 function Home() {
     const hCard = [
         {
@@ -29,7 +29,7 @@ function Home() {
   return (
     <>
         <CarouselBanner/>
-        <section className="hCard" id="Home">
+        <section className="home-cards" id="Home">
             <Container>
                 <Row>
                 {hCard.map((card, index) => (
@@ -43,8 +43,8 @@ function Home() {
                 </Row>
             </Container>
         </section>
-        <div class="container">
-            <div class="row">
+        <div class="contact-card-container">
+            <div class="contact-card-row">
                 <div class="col-4">plug in a photo or something</div>
                 <div class="col-8">
                     <h1>some description with a contact link</h1>
