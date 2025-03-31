@@ -1,6 +1,5 @@
 import React from 'react'
 import NestedNav from './NestedNav'
-import Footer from './Footer';
 function Services() {
   return (
     <div className="services-container">
@@ -41,7 +40,6 @@ function Services() {
           <p>Sing long her way size. Waited end mutual missed myself the little sister one. So in pointed or chicken cheered neither spirits invited. Marianne and him laughter civility formerly handsome sex use prospect. Hence we doors is given rapid scale above am. Difficult ye mr delivered behaviour by an. If their woman could do wound on. You folly taste hoped their above are and but. </p>
         </section>
       </div>
-    <Footer/>
   </div>
   )
 }

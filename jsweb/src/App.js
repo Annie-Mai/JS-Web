@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './NavBar';
+import Footer from './components/Footer';
 import Services from './components/Services';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/services' element={<Services/>}></Route>
             </Routes>
         </div>
+        <Footer/>
     </>
         
     );
