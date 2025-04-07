@@ -48,11 +48,9 @@
   }
   
   .carousel-container {
-    margin-top: 80px;            /* temp for overlapping */
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;              /* center*/
-    padding-top: 80px;
   }
   
 /* Prevent stretching, ensure the image is fully visible */

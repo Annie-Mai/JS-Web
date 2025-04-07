@@ -1,0 +1,32 @@
+.services-container {
+    display: flex;
+    flex: 1;
+  }
+
+  .second-navbar {
+    margin-top: 75px;
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    width: 190px;
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .info-page {
+    margin-left: 160px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    overflow: auto;
+    padding: 20px; 
+    padding-bottom: 80px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  
+  

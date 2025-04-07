@@ -1,5 +1,7 @@
 import React from 'react'
 import NestedNav from './NestedNav'
+import "./Services.css";
+
 function Services() {
   return (
     <div className="services-container">
