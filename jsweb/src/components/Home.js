@@ -6,6 +6,7 @@ import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
 import img3 from '../images/img3.png';
 import { Link } from 'react-router-dom';
+import "./Home.css";
 
 function Home() {
     const hCard = [
