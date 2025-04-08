@@ -50,4 +50,32 @@ html, body {
   .footer-links a:hover {
     text-decoration: underline;
   }
-  
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .footer-links li {
+    margin: 5px 0;
+  }
+
+  .footer-links a {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer-content {
+    padding: 0 10px;
+  }
+}
