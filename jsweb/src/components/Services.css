@@ -27,6 +27,49 @@
   padding-left: 8rem;
   padding-right: 8rem;
 }
+
+/* Enlarge Personal and Commercial Lines headings */
+#personal-line,
+#commerical-lines {
+  font-size: 2.5rem; /* Larger text size */
+  font-weight: bold; /* Make text bold */
+  color: #2c3e50; /* Optional: set a color */
+  margin-bottom: 1rem; /* Optional: some space under the headings */
+}
+
+.second-navbar h2 {
+  font-size: 2.5rem; /* Apply same size to the second navbar headings */
+  font-weight: bold;
+}
+
+/* Style for Personal Lines Nested Nav */
+.personal-lines-nav {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  color: #52da9a !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 2px solid #52da9a !important;
+  padding-bottom: 5px !important;
+}
+
+/* Style for Commercial Lines Nested Nav */
+.commercial-lines-nav {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  color: #7f52c7 !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 2px solid #7f52c7 !important;
+  padding-bottom: 5px !important;
+}
+
+/* Nested Nav Title Hover effect */
+.personal-lines-nav:hover, .commercial-lines-nav:hover {
+  color: #ffffff !important;
+  background-color: #fc486f !important;
+  transition: background-color 0.3s ease;
+}
+
+
 @media (max-width: 768px) {
   .second-navbar {
     display: none !important;

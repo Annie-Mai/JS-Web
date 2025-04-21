@@ -29,7 +29,7 @@ export default function NavBar() {
             <Nav.Link as={Link} to="/home" onClick={handleLinkClick}>Home</Nav.Link>
             <Nav.Link as={Link} to="/about" onClick={handleLinkClick}>About</Nav.Link>
             <Nav.Link as={Link} to="/services" onClick={handleLinkClick}>Services</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown" className="d-lg-none">
               <h2>Personal Lines</h2>
               <NavDropdown.Item href="#automobile" onClick={handleLinkClick}>Automobile Coverage</NavDropdown.Item>
               <NavDropdown.Item href="#travel" onClick={handleLinkClick}>Travel Insurance</NavDropdown.Item>

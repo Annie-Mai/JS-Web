@@ -1,10 +1,12 @@
 import React from 'react'
 import NestedNav from './NestedNav'
+import Scroll from './Scroll'; // Import the scroll handler
 import "./Services.css";
 
 function Services() {
   return (
     <div className="services-container">
+    <Scroll />
     <NestedNav />
       <div className="info-page">
         <h1 id="personal-line">Personal Line Policies</h1>

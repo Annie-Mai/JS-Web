@@ -20,6 +20,7 @@ html, body {
     text-align: center;
     padding: 15px 0;
     margin-top: auto; /* Pushes the footer to the bottom of the page when content is less */
+
   }
   
   .footer-content {
